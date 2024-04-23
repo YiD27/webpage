@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Yi| Form and Code Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+
+<!-- import the Quiet Sans font -->
+    <style>
+  @font-face {
+    font-family: 'Quiet Sans SemiBold';
+    src: url('quiet_sans_semibold.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Quiet Sans Light';
+    src: url('quiet_sans_light.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Quiet Sans Light Italic';
+    src: url('quiet_sans_lightitalic.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Quiet Sans ExtraLight';
+    src: url('quiet_sans_extralight.otf') format('opentype');
+  }
+    </style>
+        <style>
+        /*image hover*/
+        #hover-image {
+            display: none;
+            position: absolute;
+            width: 50px; /* Adjust the width of the hover image */
+            height: 50px; /* Maintain aspect ratio */
+        }
+    </style>
+  </head>
+	
+<body>
+<!-- navigation menu -->
+<nav class="nav">
+  <h1> <a href="index.html">YI</a></h1>
+  <ul>
+        <li><a href="p1.html" data-hover-image="01.png"class="custom-cursor">Lost in Translation</a></li>
+        <li><a href="p2.html" data-hover-image="02.png"class="custom-cursor">Random Dragon Faces</a></li>
+        <li><a href="p3.html" data-hover-image="03.png"class="custom-cursor">Computer Clock_ 'what is time?'</a></li>
+        <li><a href="p4.html" data-hover-image="04.png"class="custom-cursor">Grass Looping</a></li>
+        <li><a href="p5.html" data-hover-image="05.png"class="custom-cursor">EarPods Tree</a></li>
+        <li><a href="p6.html" data-hover-image="06.png"class="custom-cursor">Zoo Princess (Game)</a></li>
+    </ul>
+  </nav>
+
+<!-- main content -->
+    <div class="content">
+	  <h1>
+        Project #1 Lost in Translation
+      </h1>		
+       <div class="column2">
+        <iframe src="https://editor.p5js.org/YiD27/full/sJORGWLOX" class="content"></iframe>
+       </div>
+
+      <div class="column1">
+      <h2>
+        Description
+      </h2>
+      <p>
+       This is a drawing I made using shape primitives with p5. It is a leopard stuffed toy lost by my friend, and I drawed this based on her description, tranlated  using computer language.
+      </p>
+      <h2>
+        Design Process
+      </h2>
+      <p>
+        I started with a 2D body shape I drew in Illustrator and converted its svg code to p5. 
+        And I added facial details of eyes, nose and mouse of a leopard.
+        The leopard pattern is an overlaying image on top.
+        Then by playing with blending models, I intended to create a blurry and fluffy style for the toy, symbolizing it as a lost treasure in memory.
+        Last step, adding flurry outline detials with Illustrator again.</p>
+      <h2>
+        Reflections
+      </h2>
+      <p>
+        In this practice, I used a lot help from Illustrator to draw shapes. I also explored blending modes to realize the furry stuffed toy feeling which was a lot more difficult than I expected. Therefore inspired me on how in human language we are able to imagine a lot more behind word but computer is unable.
+      </p>
+      <h2>
+        Credits
+      </h2>
+      <p>
+        This project was created based on the
+        <a
+          href="https://svg2p5.com"
+          >SVG to P5 Convertor</a>
+        based on Professor Cloud’s SVG to HTML5 Converter and the Canvg.js library.
+	    </p>
+     </div>
+</div>
+</body>
+</html>
